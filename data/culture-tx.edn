@@ -1,0 +1,15 @@
+;; data/culture-tx.edn — DataScript tx-data derived from src/culture/facts.cljc
+;; `culture.facts/catalog` (ADR-2607171400 addendum 2, Wave 1 country-level).
+;; Same shape across every cloud-itonami-iso3166-* sibling. Do not hand-edit;
+;; regenerate from the catalog.
+
+[
+#:culture{:url "https://en.wikipedia.org/wiki/Tajine", :id "mar.dish.tajine", :kind :dish, :name-local "Tajine", :country "MAR", :retrieved-at "2026-07-17", :summary "Slow-cooked Maghrebi stew prepared in a distinctive cone-shaped earthenware pot of the same name.", :name "Tagine", :url-provenance :wikipedia-en}
+#:culture{:id "mar.dish.couscous", :name "Couscous", :country "MAR", :kind :dish, :summary "Traditional North African dish of small steamed granules of rolled semolina, often served with a stew spooned on top; a staple throughout Maghrebi cuisines including Morocco.", :url "https://en.wikipedia.org/wiki/Couscous", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "mar.dish.pastilla", :name "Pastilla", :country "MAR", :kind :dish, :summary "North African meat or seafood pie of Maghrebi cuisine made with warqa dough, similar to filo.", :url "https://en.wikipedia.org/wiki/Pastilla", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "mar.beverage.mint-tea", :name "Moroccan mint tea", :country "MAR", :kind :beverage, :summary "North African preparation of gunpowder green tea with spearmint leaves and sugar, central to social life in the region.", :url "https://en.wikipedia.org/wiki/Maghrebi_mint_tea", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "mar.product.argan-oil", :name "Argan oil", :country "MAR", :kind :product, :summary "Plant oil produced from the kernels of the argan tree (Argania spinosa), indigenous to Morocco, used for both culinary and cosmetic purposes.", :url "https://en.wikipedia.org/wiki/Argan_oil", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "mar.craft.zellij", :name "Zellij", :country "MAR", :kind :craft, :summary "Mosaic tilework made from individually hand-chiseled tile pieces featuring geometric Islamic patterns; originated in North Africa and remains a living craft tradition primarily in Morocco today.", :url "https://en.wikipedia.org/wiki/Zellij", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:url "https://en.wikipedia.org/wiki/Imilchil", :id "mar.festival.imilchil-marriage-festival", :kind :festival, :name-local "Souk Aam / Agdoud N'Oulmghenni", :country "MAR", :retrieved-at "2026-07-17", :summary "Annual betrothal festival in Imilchil, a symbol of Berber culture, where up to 40 couples take their vows on the same day amid music, dancing and feasts.", :name "Imilchil Marriage Festival", :url-provenance :wikipedia-en}
+#:culture{:id "mar.heritage.fes-el-bali", :name "Fes el Bali", :country "MAR", :kind :heritage, :summary "Oldest part of Fez, Morocco, inscribed as a UNESCO World Heritage Site in 1981 as part of the Medina of Fez.", :url "https://en.wikipedia.org/wiki/Fes_el_Bali", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+]
